@@ -6,7 +6,7 @@ using namespace std;
 vector<int> solution(int brown, int yellow) {
     vector<int> answer;
     int sum = brown +  yellow;
-    for(int i=1; i<=1000000; i++){
+    for(int i=1; i<=sum; i++){
         int n=i;
         if(sum%n==0){
             int m = sum/n;
